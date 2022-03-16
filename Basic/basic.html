@@ -1,3 +1,21 @@
+<div id="exercises">
+	<div>
+		<button v-on:click="alert">Show Alert</button>
+	</div>
+
+	<div>
+		<input type="text" v-on:keydown='store'>
+		<p>{{ value }}</p>
+	</div>
+	<!-- 
+		#1 Aufzählungsliste
+		... (Siehe AUfnahmen Unterricht)
+
+		#2 Bild einfügen 
+		... (Siehe Tarea 3)
+	-->
+</div>
+
 <html>
 	<head>
 		<link rel="stylesheet" href="index.css">
@@ -9,6 +27,7 @@
 			{{ message }}
 		</div>
 
+		<script src="app.js"></script>
 		<script src="basic.js"></script>
 	</body>
 </html>
